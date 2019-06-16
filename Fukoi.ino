@@ -37,7 +37,8 @@ void setup()
 {
   // input 
   pinMode(smokeA0, INPUT);
-  //Serial.begin(9600);
+  // Serial debug used on Arduino UNO (prototype)
+  // Serial.begin(9600);
   // output
   pinMode(redLed, OUTPUT);
   pinMode(greenLed, OUTPUT);
